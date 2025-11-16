@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-body: var(--font-hind-siliguri);
+}
+
+* {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  font-family: var(--font-hind-siliguri), 'Noto Sans Bengali', sans-serif;
+}
+
+body, html, main, div, span, p, h1, h2, h3, h4, h5, h6, button, a, input, textarea, select {
+  font-family: var(--font-hind-siliguri), 'Noto Sans Bengali', sans-serif;
+}
+
+.font-hind-siliguri {
+  font-family: var(--font-hind-siliguri), 'Noto Sans Bengali', sans-serif;
+}
