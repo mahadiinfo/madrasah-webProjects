@@ -29,8 +29,8 @@ const hindSiliguri = Hind_Siliguri({
 });
 
 export const metadata = {
-  title: "Student History",
-  description: "this is student history cheack page",
+  title: "মির্জাগঞ্জ ইয়ারিয়া আলিম মাদ্রাসা",
+  description: "মির্জাগঞ্জ ইয়ারিয়া আলিম মাদ্রাসা ওয়েবসাইটে আপনাকে স্বাগতম। এখানে আপনি আমাদের মাদ্রাসার সম্পর্কে তথ্য, শিক্ষাক্রম, এবং অন্যান্য গুরুত্বপূর্ণ আপডেট পাবেন।",
 };
 
 
