@@ -175,11 +175,13 @@ const ResultDisplay = ({ searchData }) => {
           #result-sheet {
             position: absolute !important;
             inset: 0 auto auto 0 !important;
-            width: 100% !important;
-            max-width: none !important;
+            box-sizing: border-box !important;
+            width: 190mm !important;
+            height: 277mm !important;
+            max-width: 190mm !important;
             margin: 0 !important;
-            padding: 7mm !important;
-            overflow: visible !important;
+            padding: 5mm !important;
+            overflow: hidden !important;
             border: 1px solid #d5c49a !important;
             border-radius: 0 !important;
             box-shadow: none !important;
@@ -191,10 +193,14 @@ const ResultDisplay = ({ searchData }) => {
           .result-actions, #result-sheet > div:first-child { display: none !important; }
           #result-sheet > div:nth-child(2) { display: none !important; }
           #result-sheet > div:last-child { position: relative !important; }
-          #result-sheet header { margin-bottom: 5mm !important; padding-bottom: 4mm !important; }
-          #result-sheet h2 { font-size: 12pt !important; }
-          #result-sheet table { min-width: 0 !important; font-size: 9pt !important; }
-          #result-sheet th, #result-sheet td { padding: 1.7mm 2.5mm !important; }
+          #result-sheet header { margin-bottom: 4mm !important; padding-bottom: 3mm !important; }
+          #result-sheet header > div:first-child { width: 9mm !important; height: 9mm !important; margin-bottom: 2mm !important; }
+          #result-sheet h2 { font-size: 11pt !important; }
+          #result-sheet section { margin-bottom: 4mm !important; }
+          #result-sheet table { min-width: 0 !important; font-size: 8.5pt !important; }
+          #result-sheet th, #result-sheet td { padding: 1.25mm 2mm !important; }
+          #result-sheet section[aria-label="ফলাফলের সারাংশ"] { padding: 3mm !important; gap: 2mm !important; }
+          #result-sheet section[aria-label="ফলাফলের সারাংশ"] p.mt-1 { margin-top: 1mm !important; font-size: 17pt !important; }
           #result-sheet tr { break-inside: avoid !important; page-break-inside: avoid !important; }
           #result-sheet section, #result-sheet footer { break-inside: avoid !important; page-break-inside: avoid !important; }
           #result-sheet .overflow-x-auto { overflow: visible !important; }
