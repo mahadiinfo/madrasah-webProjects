@@ -72,7 +72,7 @@ const HeroSlider = () => {
           >
             {/* Background Image */}
             <Image
-              src={"https://ik.imagekit.io/mu9layoz5/812064869_2860817570970616_7846797073068597156_n(1).png"}
+              src={bgimage}
               alt={slide.title}
               fill
               className="object-cover blur-sm md:blur-none opacity-60"
